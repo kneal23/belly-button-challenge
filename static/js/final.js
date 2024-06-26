@@ -57,7 +57,7 @@ function buildMetadata(sample) {
       console.log("Bubble Chart Data:", dataBubble); // Log the bubble chart data
       console.log("Bubble Chart Layout:", layoutBubble); // Log the bubble chart layout
       Plotly.newPlot('bubble', dataBubble, layoutBubble);
-      buildCharts(940);
+      //BuildCharts(940);
         // For the Bar Chart, map the otu_ids to a list of strings for your yticks
     let yticks = otu_ids.slice(0, 10).map(otu_id => `OTU ${otu_id}`).reverse();
     console.log("YTicks:", yticks);
